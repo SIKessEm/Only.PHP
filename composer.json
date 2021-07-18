@@ -1,0 +1,34 @@
+{
+  "name": "sikessem/only",
+  "description": "Set up a complete full-stack project in PHP only",
+  "license": "Apache-2.0",
+  "keywords": [
+    "only",
+    "sikessem"
+  ],
+  "authors": [{
+    "homepage": "https://sikessem.com/",
+    "name": "SIGUI kessé Emmanuel",
+    "email": "sikessem@gmail.com",
+    "role": "Developer"
+  }],
+  "support": {
+    "source": "https://github.com/SIKessEm/Only.PHP"
+  },
+  "require": {
+    "php": ">=8.0",
+    "sikessem/ends": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Only\\": "server/lib/"
+    }
+  },
+  "config": {
+    "web-dir": "client",
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
